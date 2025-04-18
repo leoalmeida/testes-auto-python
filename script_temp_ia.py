@@ -11,7 +11,7 @@ webdriver_service.start()
 driver = webdriver.Chrome(service=webdriver_service)
 
 # URL da plataforma AcordeLab
-url = "https://leoalmeida.github.io/"
+url = "https://leoalmeida.github.io/testes-auto-python/"
 
 # Abrindo o site da plataforma AcordeLab
 driver.get(url)
