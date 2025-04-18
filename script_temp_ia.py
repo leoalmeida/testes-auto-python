@@ -20,7 +20,7 @@ time.sleep(3)
 
 # Preenchendo o campo de e-mail e senha
 email_input = driver.find_element(By.ID, "email")
-email_input.send_keys("email@acordlab.com.br")
+email_input.send_keys("email@acordelab.com.br")
 password_input = driver.find_element(By.ID, "senha")
 password_input.send_keys("123senha")
 
