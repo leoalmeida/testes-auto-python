@@ -4,10 +4,10 @@ from gerador_script_teste import *
 
 def main():
     caso_de_uso = gerar_casos_uso()
-    print(caso_de_uso)
+    #print(caso_de_uso)
 
     cenario_teste = gerar_cenarios_teste(caso_de_uso)
-    print("\nCenario Teste\n", cenario_teste)
+    #print("\nCenario Teste\n", cenario_teste)
 
     script_teste = gerar_script_teste(caso_de_uso, cenario_teste)
     print("\nScript Teste\n", script_teste)
