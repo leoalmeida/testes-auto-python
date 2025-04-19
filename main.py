@@ -30,6 +30,7 @@ def main():
         print("Erro ao gerar o script de teste.", e)
     finally:
         print("Apagando assistente e arquivos...")
+        apagar_vector_store(vs_id)
         apagar_arquivos(lista_ids_arquivos)
         apagar_assistente(assistente.id)
         apagar_thread(thread.id)
